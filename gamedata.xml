@@ -1,0 +1,157 @@
+<TextTrollSim>
+	<GameName>Симулятор Краматорского троллейбуса 1996</GameName>
+	<Author>Костян Сигаев</Author>
+	<Trolleybuses>
+		<Trolleybus model="ЗиУ-5Д" numbers="0100, 0102, 0103, 0105, 0107, 0110, 0113, 0114"/>
+		<Trolleybus model="ЗиУ-682Б" numbers="0115, 0116, 0117, 0118, 0119, 0120, 0121, 0122, 0123, 0124"/>
+		<Trolleybus model="ЗиУ-682В" numbers="0144, 0146, 0171, 0172, 0173, 0180, 0181, 0187"/>
+		<Trolleybus model="ЗиУ-682Г" numbers="0142, 0145, 0166, 0182"/>
+		<Trolleybus model="ЮМЗ-Т1" numbers="0188, 0189, 0190, 0191, 0192, 0193, 0194"/>
+		<Trolleybus model="ЮМЗ-Т2" numbers="0192, 0196, 0197, 0198, 0199, 0200"/>
+		<Trolleybus model="Mercedes-Benz O405GTZ" numbers="0201, 0202"/>
+	</Trolleybuses>
+	<Routes>
+		<Route name="1 (КТТУ - НКМЗ)">
+			<Stop>КТТУ</Stop>
+			<Stop>Актюбинская</Stop>
+            <Stop>Завод "Альфа"</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>ул. Парковая</Stop>
+            <Stop>Школа</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>Стоматологическая</Stop>
+            <Stop>19-го партсъезда</Stop>
+            <Stop>Дом быта</Stop>
+            <Stop>ул. Шкадинова</Stop>
+            <Stop>Бульвар Машиностроителей</Stop>
+            <Stop>НКМЗ</Stop>
+            <Stop>Бульвар Машиностроителей</Stop>
+            <Stop>ул. Шкадинова</Stop>
+            <Stop>Дом быта</Stop>
+            <Stop>19-го партсъезда</Stop>
+            <Stop>Стоматологическая</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>Школа</Stop>
+            <Stop>ул. Парковая</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>Завод "Альфа"</Stop>
+            <Stop>Актюбинская</Stop>
+            <Stop>КТТУ</Stop>
+		</Route>
+		<Route name="2 (КТТУ - ЭМСС)">
+			<Stop>КТТУ</Stop>
+			<Stop>ул. Остапа Вишни</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>Детская поликлиника</Stop>
+            <Stop>Рынок</Stop>
+            <Stop>ДК Строителей</Stop>
+            <Stop>ул. Маяковского</Stop>
+            <Stop>КЖБ</Stop>
+            <Stop>133 квартал (Станкострой)</Stop>
+            <Stop>КЗТС</Stop>
+            <Stop>ЭМСС</Stop>
+            <Stop>КЗТС</Stop>
+            <Stop>133 квартал (Станкострой)</Stop>
+            <Stop>КЖБ</Stop>
+            <Stop>ул. Маяковского</Stop>
+            <Stop>ДК Строителей</Stop>
+            <Stop>Рынок</Stop>
+            <Stop>Совбез</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>ул. Остапа Вишни</Stop>
+            <Stop>КТТУ</Stop>
+		</Route>
+		<Route name="2а (КТТУ - Детская поликлиника)">
+			<Stop>КТТУ</Stop>
+			<Stop>ул. Остапа Вишни</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>Детская поликлиника</Stop>
+            <Stop>Совбез</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>ул. Остапа Вишни</Stop>
+            <Stop>КТТУ</Stop>
+		</Route>
+		<Route name="3 (КТТУ - НКМЗ)">
+			<Stop>КТТУ</Stop>
+			<Stop>ул. Остапа Вишни</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>Автовокзал</Stop>
+            <Stop>ул. Автотранспортная</Stop>
+            <Stop>Проспект Мира</Stop>
+            <Stop>Крматорская ТЭЦ</Stop>
+            <Stop>НКМЗ</Stop>
+            <Stop>Крматорская ТЭЦ</Stop>
+            <Stop>Проспект Мира</Stop>
+            <Stop>ул. Автотранспортная</Stop>
+            <Stop>Автовокзал</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>ул. Остапа Вишни</Stop>
+            <Stop>КТТУ</Stop>
+		</Route>
+		<Route name="4 (КТТУ - НКМЗ)">
+			<Stop>КТТУ</Stop>
+			<Stop>ул. Остапа Вишни</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>ул. Шкадинова</Stop>
+            <Stop>Бульвар Машиностроителей</Stop>
+            <Stop>НКМЗ</Stop>
+            <Stop>Бульвар Машиностроителей</Stop>
+            <Stop>ул. Шкадинова</Stop>
+            <Stop>Поликлиника №3</Stop>
+            <Stop>ул. Дворцовая</Stop>
+            <Stop>ул. Молодёжная</Stop>
+            <Stop>Дворец пионеров</Stop>
+            <Stop>ул. Юбилейная</Stop>
+            <Stop>ул. Гвардейцев Кантемировцев</Stop>
+            <Stop>Бульвар Краматорский</Stop>
+            <Stop>ул. Нади Курченко</Stop>
+            <Stop>ул. Остапа Вишни</Stop>
+            <Stop>КТТУ</Stop>
+		</Route>
+	</Routes>
+</TextTrollSim>
